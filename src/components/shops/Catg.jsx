@@ -1,53 +1,12 @@
-import React from "react"
+import React from 'react';
 
 const Catg = () => {
-  const data = [
-    {
-      cateImg: "./images/category/cat-1.png",
-      cateName: "Apple",
-    },
-    {
-      cateImg: "./images/category/cat-2.png",
-      cateName: "Samasung",
-    },
-    {
-      cateImg: "./images/category/cat-1.png",
-      cateName: "Oppo",
-    },
-    {
-      cateImg: "./images/category/cat-2.png",
-      cateName: "Vivo",
-    },
-    {
-      cateImg: "./images/category/cat-1.png",
-      cateName: "Redimi",
-    },
-    {
-      cateImg: "./images/category/cat-2.png",
-      cateName: "Sony",
-    },
-  ]
   return (
-    <>
-      <div className='category'>
-        <div className='chead d_flex'>
-          <h1>Brands </h1>
-          <h1>Shops </h1>
-        </div>
-        {data.map((value, index) => {
-          return (
-            <div className='box f_flex' key={index}>
-              <img src={value.cateImg} alt='' />
-              <span>{value.cateName}</span>
-            </div>
-          )
-        })}
-        <div className='box box2'>
-          <button>View All Brands</button>
-        </div>
-      </div>
-    </>
-  )
-}
+    <div>
+      <img src="https://baggage.nl/wp-content/uploads/2018/06/Global-Blue_girl-Shopping-vertical.jpg" alt="" style={{ width: '70%', height: '70%' }} />
+      <img src="https://img.freepik.com/free-photo/online-shopping-web-shop-e-shopping-concept_53876-124856.jpg?size=626&ext=jpg" alt="" style={{ width: '70%', height:'90%'}} />
+    </div>
+  );
+};
 
-export default Catg
+export default Catg;
