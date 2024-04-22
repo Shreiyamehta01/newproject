@@ -1,16 +1,16 @@
-import React from "react"
-import SlideCard from "./SlideCard"
+import React from "react";
 
 const SliderHome = () => {
   return (
     <>
-      <section className='homeSlide contentWidth'>
-        <div className='container'>
+      <div className='homeSlide contentWidth'>
+        {/* <div className='container'>
           <SlideCard />
-        </div>
-      </section>
+        </div> */}
+        <img src="https://img.freepik.com/free-photo/online-shopping-web-shop-e-shopping-concept_53876-124856.jpg?size=626&ext=jpg" alt="" style={{ width: '100%', height:'90%'}} />
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default SliderHome
+export default SliderHome;
